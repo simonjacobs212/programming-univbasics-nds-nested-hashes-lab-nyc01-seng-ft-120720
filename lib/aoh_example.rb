@@ -21,6 +21,7 @@ end
 # held in the constants
 
 def aoh_lookup(aoh, row, key)
+  aoh[row][key]
 end
 
 def aoh_update(aoh, row, key, new_value)
