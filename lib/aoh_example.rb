@@ -7,7 +7,7 @@ KATE_G = { name:  "Kate Gompert", occupation: "None" }
 BRUCE_G = { name:  "Bruce Green", occupation: "Fan of Mildred" }
 
 def assembled_aoh
-  [DON_G, JOELLE_V, PAT_M, KATE_G, BRUCE_G]
+  names = [DON_G, JOELLE_V, PAT_M, KATE_G, BRUCE_G]
 end
 
 # Build an array that contains (or, "nests") the constants into a single
